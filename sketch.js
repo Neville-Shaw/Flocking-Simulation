@@ -27,7 +27,7 @@ function setup() {
 
   sprites[0] = 0;
   
-  sprites[1] = sailBoat;
+  sprites[1] = SailBoat;
   sprites[2] = AntSprite;
 
   
