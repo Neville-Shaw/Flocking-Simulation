@@ -1,6 +1,6 @@
 # Flocking-Simulation
 
-Boids Flocking Simulation using p5js with quad tree optimizations
+Boids Flocking Simulation using p5js with a quad tree
 
 ## References:
 https://en.wikipedia.org/wiki/Flocking_(behavior)
