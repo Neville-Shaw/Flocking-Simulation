@@ -3,7 +3,7 @@
 Flocking Simulation using p5js with a quad tree to increase performance. </br>
 Based on the Boids system created by Craig Reynolds in 1986 </br>
 
-## The boids system uses three rules: </br>
+## The boids system makes use of three rules: </br>
 
 ### Alignment: </br>
 Alignment calculates a steering force in the average steering direction of all boids within a specified radius. </br>
