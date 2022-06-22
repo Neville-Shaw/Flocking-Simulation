@@ -8,8 +8,8 @@ var showPerception = false;
 var rainbow = false;
 
 function preload() {
-  AntSprite = loadImage("Ant.png");
-  SailBoat = loadImage("Sailboat.png");
+  AntSprite = loadImage("images/Ant.png");
+  SailBoat = loadImage("images/Sailboat.png");
 
   Settings = document.getElementById("settings");
 
