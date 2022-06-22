@@ -1,0 +1,124 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+
+  <!-- Script references -->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="boid.js"></script>
+  <script language="javascript" type="text/javascript" src="quadTree.js"></script>
+  <script language="javascript" type="text/javascript" src="interface.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  
+  <div class="wrapper">
+    
+    <div id="canvascontainer" class="canvas">
+              
+      <!-- Script references -->
+      <script src="sketch.js"></script>
+      
+
+      <div class="controls" id="controls">
+        <span id="mouseStat">Repel</span> <br/>
+      </div>
+      <button id="ToggleSettingsButton" class="TextButton">Settings</button>
+
+      <div class="CORSPolicyText" id="CORSPolicyText"></div>
+
+      <div class="settings" id="settings"> 
+        <div class="settingBox">
+
+         
+          <h2 class="settingSliders" id="settingSliders">
+            Separation
+            </br>
+            <span id="SepSlider" class="here"></span>
+            <span class="SepSlider" id="SepStat"></span>
+            </br>
+            Cohesion
+            </br>
+            <span id="CohSlider" ></span>
+            <span class="CohSlider" id="CohStat"></span>
+            </br>
+            Alignment
+            </br>
+            <span id="AliSlider" ></span>
+            <span class="AliSlider" id="AliStat"></span>
+            </br></br>
+            Boids
+            </br>
+            <span id="NumBoids"></span>
+            <span class="NumBoids" id="NumBoidsStat"></span>
+            </br></br>
+            Mouse Power
+            </br>
+            <span id="MouseSlider"></span>
+            <span class="MousePower" id="MousePowerStat"></span>
+          </h2>
+        </br>
+          
+            
+          <div class="Interactive">
+            <h2>
+              Change Image
+              </br>
+              <span id="changeImageSlider"></span>
+              <span class="changeImageSlider" id="Image">BOID</span>
+              
+            </h2>
+            <div class="Buttons">
+              <button id="ShowQTreeButton" class="Button1">Show Quad Tree</button> 
+              <h3 id="ShowQTreeBool" class="ShowQTreeBool" >false</h3>
+              </br> 
+              <button id="ShowPerception" class="Button1">Show Perception</button> 
+              <h3 id="ShowPerceptionBool" class="ShowPerceptionBool" >false</h3>
+
+              
+            </div>
+            <h2 class="Col2Slider">
+              </br> 
+              Perception Radius
+              </br>
+              <span id="PerceptionRadiusSlider"></span>
+              <span class="PerceptionRadiusSlider" id="PerceptionRadiusStat">BOID</span>
+            </h2>
+            
+            
+          </div>
+
+          
+             
+          </div>
+          
+          <h2 class="PlayerControls">
+            CONTROLS:
+          
+            </br>
+            Space = Hide Display</br>
+            T = Toggle Fullscreen</br>
+            S = Toggle Settings</br>
+            G = Toggle SepBoost</br>
+            P = Show Perception</br>
+            R = Rainbow Mode</br>
+            A = Switch Mouse Mode</br>
+          </h2>
+          
+          
+      </div>
+    </div>
+
+   
+      
+      
+      
+    </div>
+  </div>
+  
+</body>
+</html>

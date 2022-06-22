@@ -1,0 +1,157 @@
+.canvas {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+
+  color: rgb(150, 150, 150);
+}
+
+.resized {
+  left: 10%;
+  margin-top: 8vh;
+}
+.wrapper {
+  position: relative;
+
+  text-align: center;
+  margin: auto;
+}
+
+.controls {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-left: 10;
+  bottom: 4px;
+  left: 0;
+
+  position: absolute;
+  display: outside;
+}
+.TextButton {
+ 
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  font-size: 20;
+  background-color: rgb(83, 83, 83);
+  transition-duration: 0.3s;
+
+  
+  bottom: 1;
+
+  border-radius: 4px;
+  color: rgb(24, 24, 24);
+
+  border: none;
+  outline: none;
+  display: inline;
+}
+.TextButton:hover {
+  background-color: rgb(63, 63, 63);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.settings {
+  position: absolute;
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+
+  width: 800;
+  height: 400;
+  border-radius: 20px;
+
+  position: absolute;
+  left: 52%;
+  margin-left: -450;
+  margin-top: 12%;
+  opacity: 0.75;
+
+  display: none;
+  /* border: 1px solid rgb(0, 134, 40); */
+}
+.settingsResized {
+  left: 53.1%;
+}
+
+.settingBox {
+  justify-content: center;
+  align-items: center;
+  position: inherit;
+  text-align: left;
+  float: left;
+  margin-left: 50;
+}
+
+.PlayerControls {
+  position: absolute;
+  top: 20;
+  left: 500;
+  text-align: left;
+}
+.H1 {
+  margin-top: 160;
+  margin-left: -260;
+}
+
+.settingSliders {
+  margin-top: 35;
+}
+.Interactive {
+  position: absolute;
+  top: 15;
+  left: 200;
+
+  width: 500;
+  
+}
+.Col2Slider {
+  
+  margin-top: 109;
+}
+.Buttons {
+  position: absolute;
+}
+.ShowPerceptionBool {
+  display: inline;
+  font-size: 30;
+}
+.PerceptionStat {
+  display: inline;
+  font-size: 30;
+}
+.Button1 {
+  font-size: 20;
+  background-color: rgb(83, 83, 83);
+  transition-duration: 0.3s;
+
+  position: relative;
+  bottom: 3;
+
+  border-radius: 4px;
+  color: rgb(24, 24, 24);
+
+  border: none;
+  outline: none;
+  display: inline;
+}
+.Button1:hover {
+  background-color: rgb(63, 63, 63);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.ShowQTreeBool {
+  /* margin-top: 100; */
+  display: inline;
+  font-size: 30;
+}
+
+.ele_inline {
+  display: inline;
+}
+
+body {
+  background-color: rgb(27, 27, 27);
+  vertical-align: middle;
+}
