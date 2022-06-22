@@ -21,11 +21,11 @@ For example, a boid with a closer distance will be given a higher priority when 
 Finally a steering force equal to the total of all rules is exerted on the current boid
 
 ## Quad Tree:
-Unfortunatly to check which boids are in the radius you have to calculate the position of every other boid in the system </br>
+Unfortunatly to check which boids are in its radius you need to calculate the position of every other boid in the system </br>
 this creates a time complexity with a big O notation of O(n^2) as each boid is looping over all other boids. </br>
 Even with only 1000 boids the computer needs to iterate one million different times per frame!</br>
 
-However this system can be simplified into O(logn) using a quad tree data structure </br>
+However this system can be simplified into O(logn) using a quad tree data structure. </br>
 A quad tree subdivides the scene into squares limited based on the number of boids within a region </br>
 in a common quad tree the squares and positions of the boids within are compressed into a trie which has a search complexity of O(logn).</br>
 Thus reducing a million iterations every frame into around four thousand iterations! </br>
