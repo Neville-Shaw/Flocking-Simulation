@@ -1,7 +1,7 @@
 # Flocking-Simulation
 
 Flocking Simulation using p5js with a quad tree to increase performance. </br>
-Based on the Boids sysetem created by Craig Reynolds in 1986 </br>
+Based on the Boids system created by Craig Reynolds in 1986 </br>
 
 ## The boids system uses three rules </br>
 
