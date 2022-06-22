@@ -9,7 +9,7 @@ var rainbow = false;
 
 function preload() {
   AntSprite = loadImage("Ant.png");
-  sailBoat = loadImage("Sailboat.png");
+  SailBoat = loadImage("Sailboat.png");
 
   Settings = document.getElementById("settings");
 
