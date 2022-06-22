@@ -18,7 +18,6 @@ This rule simply generates a vector pointing in the average opposite direction o
 and sets a magnitude with respect to distance as well.
 For example, a boid with a closer distance will be given a higher priority when averaging the steering forces rather than a boid further away
 </br>
-
 Finally a steering force equal to the total of all rules is exerted on the current boid
 
 ## Quad Tree:
