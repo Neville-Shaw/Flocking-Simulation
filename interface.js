@@ -58,15 +58,15 @@ function UpdateStats() {
 
     ShowQTreeBool.html(showQuadTree);
     ShowPerceptionBool.html(showPerception);
-    if (localServer) {
-      if (spritesNum == 0) {
-        BoidImage.html("BOID");
-      } else if (spritesNum == 1){
-        BoidImage.html("Sailboat");
-      } else if (spritesNum == 2){
-        BoidImage.html("ANT");
-      }
+    
+    if (spritesNum == 0) {
+      BoidImage.html("BOID");
+    } else if (spritesNum == 1){
+      BoidImage.html("Sailboat");
+    } else if (spritesNum == 2){
+      BoidImage.html("ANT");
     }
+    
   }
   
   // Change the status in the bottom left
