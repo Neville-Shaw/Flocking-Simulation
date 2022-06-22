@@ -43,6 +43,8 @@ https://en.wikipedia.org/wiki/Quadtree
 
 https://www.youtube.com/watch?v=OJxEcs0w_kE
 
+https://gamedevelopment.tutsplus.com/tutorials/understanding-steering-behaviors-seek--gamedev-849
+
 https://www.youtube.com/watch?v=mhjuuHl6qHM
 
 https://www.youtube.com/watch?v=bqtqltqcQhw
