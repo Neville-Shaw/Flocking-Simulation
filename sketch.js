@@ -1,4 +1,4 @@
-var POPULATION = 500;
+var POPULATION = 200;
 var flock = [];
 
 
