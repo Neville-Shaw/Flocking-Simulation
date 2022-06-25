@@ -19,10 +19,7 @@ var resizedWidth = 1500;
 var resizedHeight = 800;
 
 function setup() {
-  // initilize the canvas position to the canvas container div
   let canvas = createCanvas(windowWidth - 20, windowHeight - 20);
-  //let canvas = createCanvas(1000, 800);
-
   canvas.parent("canvascontainer");
 
   sprites[0] = 0;
