@@ -84,7 +84,7 @@ function draw() {
   checkBoidPOP();
   
   canvas.style.width = "100%";
-  canvas.style.height = "auto";
+  canvas.style.height = "100%";
 }
 
 function checkBoidPOP() {
