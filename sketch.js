@@ -82,6 +82,9 @@ function draw() {
   
   UpdateStats();
   checkBoidPOP();
+  
+  canvas.style.width = "100%";
+  canvas.style.height = "auto";
 }
 
 function checkBoidPOP() {
