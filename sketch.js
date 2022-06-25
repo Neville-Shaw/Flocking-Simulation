@@ -6,13 +6,10 @@ var sprites = [];
 var spritesNum = 0;
 
 var quadTree;
-
 var points;
 var count = 0;
 
 var perception = 35;
-
-var enableImages = true;
 var separationSlider, cohesionSlider, alignmentSlider, mousePower;
 
 var resizedWidth = 1500;
