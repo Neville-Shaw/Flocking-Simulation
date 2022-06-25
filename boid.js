@@ -9,8 +9,7 @@ class Boid {
     // directly limits steering
     this.maxForce = 0.1;
 
-    // Random2D generates a random direction but with a total mag of 1
-    // This is what randomizes their speeds
+    // randomize inital speeds
     this.vel.setMag(random(1, 2));
 
     // Size of the boids
