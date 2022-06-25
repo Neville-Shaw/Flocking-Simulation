@@ -173,7 +173,7 @@ class Boid {
     translate(this.pos.x, this.pos.y);
     rotate(theta);
     imageMode(CENTER);
-    if (enableImages) {
+    
       // Sailboat
       if (spritesNum == 1) {
         this.r = 18;
@@ -184,13 +184,6 @@ class Boid {
         this.r = 30;
         image(sprites[spritesNum], 0, 0, this.r, this.r);
       } else {
-        beginShape();
-        vertex(0, -this.r * 2);
-        vertex(-this.r, this.r * 2);
-        vertex(this.r, this.r * 2);
-        endShape(CLOSE);
-      }
-    } else {
       beginShape();
       vertex(0, -this.r * 2);
       vertex(-this.r, this.r * 2);
