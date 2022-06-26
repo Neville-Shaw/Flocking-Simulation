@@ -45,6 +45,7 @@ function setup() {
   ShowPerceptionButton.mousePressed(toggleShowPerception);
 
   ToggleSettings();
+  cv = document.getElementById("defaultCanvas0");
 }
 
 function draw() {
@@ -83,8 +84,8 @@ function draw() {
   UpdateStats();
   checkBoidPOP();
   
-  canvas.style.width = "100%";
-  canvas.style.height = "100%";
+  cv.style.width = "100%";
+  cv.style.height = "100%";
 }
 
 function checkBoidPOP() {
