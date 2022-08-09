@@ -7,7 +7,7 @@ Based on the Boids system created by Craig Reynolds in 1986 </br>
 
 ### Alignment: </br>
 Alignment calculates a steering force in the average steering direction of all boids within a specified radius. </br>
-remember steering force is desired - velocity
+Remember steering force is desired - velocity
 
 ### Cohesion: </br>
 Cohesion averages the position of all boids in the radius mentioned above, </br>
@@ -21,8 +21,8 @@ For example, a boid with a closer distance will be given a higher priority when 
 Finally a steering force equal to the total of all rules is exerted on the current boid
 
 ## Quad Tree:
-Unfortunatly to check which boids are in its radius you need to calculate the position of every other boid in the system </br>
-this creates a time complexity with a big O notation of O(n^2) as each boid is looping over all other boids. </br>
+Unfortunately to check locations of boids within a radius you need to calculate the position of every other boid in the system </br>
+This will create a time complexity with a big O notation of O(n^2) as each boid is looping over all other boids. </br>
 Even with only 1000 boids the computer needs to iterate one million different times per frame!</br>
 
 However this system can be simplified into O(logn) using a quad tree data structure. </br>
